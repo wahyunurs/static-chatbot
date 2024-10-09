@@ -1,0 +1,11 @@
+{
+    "greetings": {
+        "hi": "Hello! How can I assist you today?",
+        "hello": "Hi there! What can I help you with?",
+        "hey": "Hey! What do you want to know?"
+    },
+    "farewell": {
+        "bye": "Goodbye! Have a great day!",
+        "see you": "See you soon!"
+    }
+}

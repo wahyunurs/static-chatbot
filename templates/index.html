@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        #chat-box { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: auto; margin-bottom: 20px; }
+        #input-box { width: 100%; padding: 10px; }
+        .user-message { color: blue; }
+        .bot-message { color: green; }
+    </style>
+</head>
+<body>
+    <h1>Static Chatbot App</h1>
+    <div id="chat-box"></div>
+    <input type="text" id="input-box" placeholder="Type a message..." autofocus>
+
+    <script src="{{url_for('static', path='/js/script.js')}}">
+    </script>
+</body>
+</html>
